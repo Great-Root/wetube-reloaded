@@ -7,7 +7,7 @@
     "url": "git+https://github.com/Great-Root/wetube-reloaded.git"
   },
   "scripts": {
-    "dev": "babel-node index.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "author": "Great Root<icujoa@gmail.com>",
   "license": "MIT",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@babel/node": "^7.14.7",
-    "@babel/preset-env": "^7.14.8"
+    "@babel/preset-env": "^7.14.8",
+    "nodemon": "^2.0.12"
   }
 }
